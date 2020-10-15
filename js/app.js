@@ -17,7 +17,7 @@ particlesJS(
 	{
 		particles: {
 			number: {
-				value: 80,
+				value: 40,
 				density: {
 					enable: true,
 					value_area: 800,
@@ -70,7 +70,7 @@ particlesJS(
 			},
 			move: {
 				enable: true,
-				speed: 6,
+				speed: 10,
 				direction: 'none',
 				random: false,
 				straight: false,
@@ -86,7 +86,7 @@ particlesJS(
 			detect_on: 'canvas',
 			events: {
 				onhover: {
-					enable: true,
+					enable: false,
 					mode: 'repulse',
 				},
 				onclick: {
